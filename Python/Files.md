@@ -2,46 +2,44 @@
 
 A file (object) comes from one of the following classes shown here:
 
-•	```IOBase```
+-	```IOBase```
+    -	```RawIOBase```
+    -	```BufferedIOBase```
+    -	```TextIOBase```
+-	```open()```: Obtain file (object)
 
- -	```RawIOBase```
- -	```BufferedIOBase```
- -	```TextIOBase```
+    ```
+    stream = open(file, mode = 'r', encoding = None)
+    ```
+    -	file: Name of file
+    -	mode: Open mode
+    -	encoding: Encoding type (UTF-8 with text files)
 
-•	```open()```: Obtain file (object)
+-	```close()```: Get rid of file (object)
 
-```
-stream = open(file, mode = 'r', encoding = None)
-```
- -	file: Name of file
- -	mode: Open mode
- -	encoding: Encoding type (UTF-8 with text files)
+-	```read()```: Read whole file to memory (reading a terabyte-long file using this may corrupt OS)
 
-•	```close()```: Get rid of file (object)
+-	```readline()```: Read a complete line of text from the file (treats file content as set of lines)
 
-•	```read()```: Read whole file to memory (reading a terabyte-long file using this may corrupt OS)
+-	```write()```: Write text file (writing a file opened in read mode won't succeed)
 
-•	```readline()```: Read a complete line of text from the file (treats file content as set of lines)
+-	```readlines()```: Read all the file contents, returning list of strings, one element per file line
 
-•	```write()```: Write text file (writing a file opened in read mode won't succeed)
+-	```readinto()```: Allow reading from a binary file
 
-•	```readlines()```: Read all the file contents, returning list of strings, one element per file line
+-	```bytearray()```: Fills array with zeros
 
-•	```readinto()```: Allow reading from a binary file
+-	```hex()```: Converts elements to hexadecimal values
 
-•	```bytearray()```: Fills array with zeros
+-	Opening stream modes:
 
-•	```hex()```: Converts elements to hexadecimal values
-
-•	Opening stream modes:
-
- -	```r```: read
- -	```w```: write
- -	```a```: append
- -	```r+```: read and update
- -	```w+```: write and update
- -	```x```: open file for its exclusive creation
- -	Text:
-   -	```rt```, ```wt```, ```at```, ```r+t```, ```w+t```
- -	Binary:
-   -	```rb```, ```wb```, ```ab```, ```r+b```, ```w+b```
+     -	```r```: read
+     -	```w```: write
+     -	```a```: append
+     -	```r+```: read and update
+     -	```w+```: write and update
+     -	```x```: open file for its exclusive creation
+     -	Text:
+        -	```rt```, ```wt```, ```at```, ```r+t```, ```w+t```
+     -	Binary:
+        -	```rb```, ```wb```, ```ab```, ```r+b```, ```w+b```
