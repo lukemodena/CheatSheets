@@ -1,5 +1,5 @@
 # Important Code
-## Django Backend Framework
+## Django Backend Framework:
 -	`django-admin start project [projectname]`: Create bare Django project
 -	`python manage.py runserver`: Run project on local server
 -	`python manage.py startapp [appname]`: Build App within Django project
@@ -7,7 +7,7 @@
 -	`python manage.py migrate [appname]`: Lock migrations within Django project
 ## Django Definitions:
 -	API: Application Programming Interface
-## REACT Frontend Framework
+## REACT Frontend Framework:
 - NPM and NPX
     -	`npm start`: Start a package
     -	`npm run server`
@@ -47,7 +47,7 @@
 -	Node: Defined as: a light, stateless, immutable, virtual representation of a DOM node
 -	DOM: Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
 
-## GIT
+## GIT:
 - git add .
 - git status
 - git commit "some text"
