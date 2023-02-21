@@ -39,10 +39,18 @@
     - `yarn help`: Access list of all yarn commands
 -	`nano server.js`
 -	`node server.js`
--	
+
 ## REACT Definitions:
 -	NPM: Short for Node Package Manager, an online directory that contains the various already registered open-source packages.
 -	NPX: Short for Node Package Execute and it comes with the npm
 -	Nano: Truly minimal replacement for Create-React-App
 -	Node: Defined as: a light, stateless, immutable, virtual representation of a DOM node
 -	DOM: Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
+
+## GIT
+- git add .
+- git status
+- git commit "some text"
+- git remote add origin git@github.com:lukemodena/[repository].git
+- git branch -M main
+- git push -u origin main
