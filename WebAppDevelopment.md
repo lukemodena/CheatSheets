@@ -48,9 +48,9 @@
 -	DOM: Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
 
 ## GIT:
-- git add .
-- git status
-- git commit "some text"
-- git remote add origin git@github.com:lukemodena/[repository].git
-- git branch -M main
-- git push -u origin main
+- `git add .`
+- `git status`
+- `git commit "some text"`
+- `git remote add origin git@github.com:lukemodena/[repository].git`
+- `git branch -M main`
+- `git push -u origin main`
