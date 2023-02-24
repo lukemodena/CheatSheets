@@ -1,6 +1,6 @@
 # Important Code
 ## Django Backend Framework:
--	`django-admin start project [projectname]`: Create bare Django project
+-	`django-admin startproject [projectname]`: Create bare Django project
 -	`python manage.py runserver`: Run project on local server
 -	`python manage.py startapp [appname]`: Build App within Django project
 -	`python manage.py makemigrations [appname]`: Prepare migrations within Django project
